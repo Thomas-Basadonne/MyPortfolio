@@ -1,0 +1,49 @@
+.timeline {
+  position: relative;
+  margin: 20px 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 2px;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-left: 20px; /* Aggiunto un padding per separare il contenuto dalla linea */
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #ccc;
+  position: absolute;
+  left: 1px; /* Sposta leggermente il pallino verso destra */
+  top: 50%;
+  transform: translateY(
+    -50%
+  ); /* Utilizza translateY per centrare verticalmente il pallino */
+}
+
+.timeline-content {
+  margin-left: 30px;
+}
+
+.timeline-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.timeline-description {
+  margin-bottom: 0;
+}
