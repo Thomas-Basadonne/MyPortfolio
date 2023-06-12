@@ -1,4 +1,6 @@
-.timeline {
+/* STILE LINEA TEMPORALE */
+
+/* .timeline {
   position: relative;
   margin: 20px 0;
 }
@@ -18,7 +20,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-  padding-left: 20px; /* Aggiunto un padding per separare il contenuto dalla linea */
+  padding-left: 20px; 
 }
 
 .timeline-dot {
@@ -27,11 +29,11 @@
   border-radius: 50%;
   background-color: #ccc;
   position: absolute;
-  left: 1px; /* Sposta leggermente il pallino verso destra */
+  left: 1px; 
   top: 50%;
   transform: translateY(
     -50%
-  ); /* Utilizza translateY per centrare verticalmente il pallino */
+  ); 
 }
 
 .timeline-content {
@@ -46,4 +48,4 @@
 
 .timeline-description {
   margin-bottom: 0;
-}
+} */
